@@ -15,6 +15,7 @@
       <div style="display: inline-block;">
         <img src="{{ url_for(image) }}" alt="{{ author }} {{ translation }}">
         <p>{{ translation }}</p>
+        <a href="{{theme.paypal_link}}">Go to paypal</a>
       </div>
     {%- endfor %}
 
